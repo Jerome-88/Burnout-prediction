@@ -1,0 +1,14 @@
+@"
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.pyc
+
+# Data mentah (opsional, kalau mau exclude karena besar)
+# dataset.csv
+
+# Model binaries
+"@ | Out-File -Encoding utf8 .gitignore
