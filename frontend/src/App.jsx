@@ -68,10 +68,6 @@ export default function App() {
 
       <main className="mx-auto max-w-5xl px-4 py-10 sm:px-6 sm:py-14">
         <header className="mx-auto mb-10 max-w-3xl text-center sm:mb-12">
-          <div className="mb-5 inline-flex items-center gap-2 rounded-full bg-white/48 px-4 py-2 text-xs font-bold uppercase tracking-[0.18em] text-slate-700 shadow-lg shadow-slate-900/5 ring-1 ring-white/70">
-            <span className="h-2 w-2 rounded-full bg-[#007aff] shadow-[0_0_16px_rgba(0,122,255,0.55)]" />
-            Classical ML · Burnout Risk Predictor
-          </div>
           <h1 className="text-5xl font-bold tracking-[-0.055em] text-slate-950 sm:text-7xl">
             BurnoutCheck
           </h1>

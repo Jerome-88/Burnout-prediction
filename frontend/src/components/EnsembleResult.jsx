@@ -249,8 +249,7 @@ export default function EnsembleResult({ data, meta, inputSnapshot, onReset }) {
       <div className="relative grid gap-8 lg:grid-cols-[1fr_220px] lg:items-center">
         <div>
           <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/55 px-3 py-1.5 text-xs font-semibold text-slate-700 ring-1 ring-white/60">
-            <Sparkles size={14} />
-            Main Prediction · Soft Voting Ensemble
+            Main Prediction using Soft Voting Ensemble
           </div>
           <h2 className={`text-4xl font-bold tracking-tight sm:text-5xl ${cfg.color}`}>
             {cfg.title}
