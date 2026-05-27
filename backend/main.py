@@ -148,7 +148,7 @@ def format_prediction(model_name: str, proba: np.ndarray) -> dict:
     }
 
 
-@app.get("/health")
+@app.get("/api/health")
 def health():
     return {
         "status": "ok",
@@ -164,7 +164,7 @@ def _infer(args: tuple) -> tuple[str, dict]:
     return name, format_prediction(name, get_proba(model, X))
 
 
-@app.post("/predict")
+@app.post("/api/predict")
 def predict(data: InputData):
     if not models:
         raise HTTPException(status_code=500, detail="No ML models are available.")
